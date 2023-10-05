@@ -4,8 +4,6 @@ Nucleo Web Font - Generated using nucleoapp.com
 
 @font-face {
     font-family: "Nucleo";
-    src: url("../../fonts/Nucleo.eot");
-    src: url("../../fonts/Nucleo.eot") format("embedded-opentype"), url("../../fonts/Nucleo.woff2") format("woff2"), url("../../fonts/Nucleo.woff") format("woff"), url("../../fonts/Nucleo.ttf") format("truetype"), url("../../fonts/Nucleo.svg") format("svg");
     font-weight: normal;
     font-style: normal;
 }

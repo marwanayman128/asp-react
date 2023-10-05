@@ -1,5 +1,3 @@
-import ConstructionIcon from '@mui/icons-material/Construction';
-import ApartmentIcon from '@mui/icons-material/Apartment';
 export default function section4() {
     return (
         <>

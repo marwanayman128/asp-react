@@ -57,7 +57,7 @@ export default function Contact({ setEmailSent }) {
             <form ref={form} onSubmit={sendEmail}>
                 <Stack alignItems="center" justifyContent={"center"} direction={"column"} padding={"20px "} spacing={2} sx={{ width: { xs: "300px", sm: "300px", md: "300px", lg: "500px", xl: "500px" }, backgroundColor: "rgba(0, 0, 0, 0.4)" }}>
                     <Stack gap={2} width={"100%"} direction={"column"} justifyContent={"start"}>
-                        <Typography fontSize={"20px"} color={"white"} >24 HOURS, 7 DAYS A WEEK
+                        <Typography fontSize={"20px"} color={"white"} >Talk to us now
                         </Typography>
                         <Divider color={"white"} fontSize={"20px"} width={"10%"} />
                     </Stack>
