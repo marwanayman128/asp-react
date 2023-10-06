@@ -164,7 +164,7 @@ function MostSale() {
                                     <Box sx={{ width: { xs: "80%", sm: "60%", md: "90%", lg: "90%", xl: "90%" } }}>
                                         <div className="section-subtitle"><Typography color={"#fff"}>Best Home Builders and Home Renovation</Typography></div>
                                         <h1 style={{ color: "#fff" }}>Thank you for your submit</h1>
-                                        <a href="/v1/aspbuilding/"><button type='submit' className="button-primaryy">Back to home</button></a>
+                                        <a href="/"><button type='submit' className="button-primaryy">Back to home</button></a>
                                     </Box>
 
                                 </Stack>

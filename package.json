@@ -1,8 +1,7 @@
 {
     "name": "asp",
     "version": "0.1.0",
-    "homepage": "https://quadmarketingsolution.com/v1/aspbuilding/",
-
+    "homepage": "http://asp-building.com.au",
     "private": true,
     "dependencies": {
         "@emailjs/browser": "^3.11.0",

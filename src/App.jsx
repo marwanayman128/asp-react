@@ -16,7 +16,6 @@ import { Box } from '@mui/material'
 import Success from "./pages//Success";
 import SpeedDial from './Animation/scroll/scrollToTop/SpeedDial'
 import { useState } from 'react'
-import "./css/plugins.css"
 function App() {
   const [emailSent, setEmailSent] = useState(false);
 
@@ -37,7 +36,7 @@ function App() {
 
       <Routes>
 
-        <Route path="/v1/aspbuilding/" element={<>
+        <Route path="/" element={<>
 
           <Section1 setEmailSent={setEmailSent} />
           <Section2 />
@@ -56,7 +55,7 @@ function App() {
 
         </>} />
 
-        <Route path="/v1/aspbuilding/Success" element={emailSent ? <Success /> : <Navigate to="/v1/aspbuilding/" />} />
+        <Route path="/Success" element={emailSent ? <Success /> : <Navigate to="/" />} />
 
       </Routes>
 
