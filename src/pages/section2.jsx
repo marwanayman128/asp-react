@@ -1,4 +1,5 @@
 import CheckIcon from '@mui/icons-material/Check';
+import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
 export default function section2() {
     return (
 
@@ -36,6 +37,8 @@ export default function section2() {
                             <div className="about-img"> <img src="https://www.aspbuilding.com.au/data/uploads/images/about/about1.jpg" alt="dummy" />
                                 <div className="about-img-hotifer">
                                     <p>Our 25 years working experience make a different construction building.</p>
+                                    <EmojiEventsOutlinedIcon style={{ fontSize: "40px", right: "20px", bottom: "20px", position: "absolute", color: "#fff" }} />
+
                                 </div>
                             </div>
                         </div>
