@@ -60,7 +60,7 @@ const Header2 = ({ scrollToService }) => {
     };
 
     const NavigateToHome = () => {
-        window.location.href = "/";
+        window.location.href = "/v1/aspbuilding/";
     };
 
     return (
@@ -81,7 +81,7 @@ const Header2 = ({ scrollToService }) => {
             >
 
                 <Stack onClick={NavigateToHome} pl={{ xs: 0, sm: 0, md: 7, lg: 15, xl: 15 }} display={{ xs: "block", sm: "block" }}>
-                    <Box sx={{ cursor: "pointer" }} component={"img"} width={"70%"} src={"https://www.aspbuilding.com.au/data/uploads/images/resources/logo.png"}></Box>
+                    <Box sx={{ cursor: "pointer" }} component={"img"} width={"70%"} src={"https://res.cloudinary.com/dpmu17ns4/image/upload/v1697066780/ASP/n0hep2bcgvmzrsa4qmmo.png"}></Box>
                 </Stack>
 
                 {useMediaQuery("(min-width:900px)") && (
