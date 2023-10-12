@@ -1,8 +1,5 @@
 import '@splidejs/splide/dist/css/themes/splide-default.min.css'; // Import Splide CSS
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import RoofingIcon from '@mui/icons-material/Roofing';
-import ConstructionIcon from '@mui/icons-material/Construction';
-import BusinessIcon from '@mui/icons-material/Business';
 export default function section3() {
     return (
         <>
@@ -23,10 +20,10 @@ export default function section3() {
                             <SplideSlide>
                                 <div className="item mb-30">
                                     <div className="service-img">
-                                        <div className="img"> <img src="https://www.aspbuilding.com.au/data/uploads/images/services/service-1.jpg" alt="" /> </div>
+                                        <div className="img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067089/ASP/services/tlgqcapir6692yqsutms.jpg" alt="" /> </div>
                                     </div>
                                     <div className="cont">
-                                        <div className="service-icon"> <RoofingIcon style={{ fontSize: "30px", marginLeft: "15px" }} /> </div>
+                                        <div className="service-icon"> <i className="asp-new-construction" /> </div>
                                         <h5><a style={{ textDecoration: "none" }} href="services-page.html">Building Services</a></h5>
                                     </div>
                                 </div>
@@ -36,10 +33,10 @@ export default function section3() {
 
                                 <div className="item mb-30">
                                     <div className="service-img">
-                                        <div className="img"> <img src="https://www.aspbuilding.com.au/data/uploads/images/services/service-2.jpg" alt="dummy" /> </div>
+                                        <div className="img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067088/ASP/services/gkuuvgn4k7x4drzjcsr0.jpg" alt="dummy" /> </div>
                                     </div>
                                     <div className="cont">
-                                        <div className="service-icon"> <ConstructionIcon style={{ fontSize: "30px", marginLeft: "15px" }} /></div>
+                                        <div className="service-icon"> <i className="asp-construction-sign" /> </div>
                                         <h5><a style={{ textDecoration: "none" }} href="services-page.html">Commercial & Residential</a></h5>
                                     </div>
                                 </div>
@@ -48,10 +45,10 @@ export default function section3() {
                             <SplideSlide>
                                 <div className="item mb-30">
                                     <div className="service-img">
-                                        <div className="img"> <img src="https://www.aspbuilding.com.au/data/uploads/images/services/service-3.jpg" alt="dummy" /> </div>
+                                        <div className="img"> <img src="https://res.cloudinary.com/dpmu17ns4/image/upload/v1697067088/ASP/services/eeyyshkvk1j4oulws1up.jpg" alt="dummy" /> </div>
                                     </div>
                                     <div className="cont">
-                                        <div className="service-icon"> <BusinessIcon style={{ fontSize: "30px", marginLeft: "15px" }} />  </div>
+                                        <div className="service-icon"> <i className="asp-factory" /> </div>
                                         <h5><a style={{ textDecoration: "none" }} href="services-page.html">Construction & Renovation</a></h5>
                                     </div>
                                 </div>
